@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apply to multiple UX mentoring opportunities - UX Mentor App Agg</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700|Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
+  <style>
+    /* - - - - - - - - - - - - - - - - - - - - *\
+    GLOBAL
+    \* - - - - - - - - - - - - - - - - - - - - */
+    html {height: 100%;}
+
+    body {
+      background-color: #f1f1f1;
+      color: rgba(0, 0, 0, 0.8);
+      font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 62.5%;
+      height: 100%;
+    }
+    h1 {
+      font-family: 'Merriweather', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 5rem;
+      font-weight: 900;
+    }
+    p, ul {font-size: 2.3rem;}
+    a {color: #FD0081;}
+    a:hover, a:active, a:focus {
+      color: #FD0081;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(253, 0, 129, 0.33);
+    }
+
+    .jumbotron {
+      background: url('img/hero-image-edited.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      margin-bottom: 0;
+      padding: 8rem 0 10rem;
+    }
+    @media screen and (min-width: 768px) {
+      .jumbotron .h1, .jumbotron h1 {
+          font-size: 5rem;
+      }
+    }
+    input {
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      border-radius: 0.5rem;
+      color: #1abc9c;
+      font-weight: 600;
+      vertical-align: middle;
+      width: 100%;}
+    input[type="text"] {padding-left: 1rem;}
+    input[type="text"]:focus {
+      box-shadow: 0 0 10px #1abc9c;
+      outline: none;
+    }
+    ::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.33);
+      font-weight: 200;
+    }
+    ::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.33);
+      font-weight: 200;
+    }
+    :-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.33);
+      font-weight: 200;
+    }
+    .btn {border-radius: 0.75rem;}
+    .btn-primary {
+      background-color: #FD0081;
+      box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
+      font-family: 'Merriweather';
+      font-weight: 300;
+      letter-spacing: 0.025em;
+      transition: background-color 0.2s ease-in-out;
+      width: 100%;
+    }
+    .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+      background-color: #EC0070;
+      outline: none;
+      transition: background-color 0.2s ease-in-out;
+    }
+    .btn-primary:active, .btn-primary:active:hover, .btn-primary:active:focus {
+      background-color: #EC0070;
+      box-shadow: none;
+      margin-top: 0.05em;
+      margin-bottom: 0.95em;
+      outline: none;
+    }
+    .btn-primary[disabled], .btn-primary[disabled]:hover {
+      background-color: #FD0081;
+      box-shadow: none;
+    }
+    footer {
+      bottom: 2rem;
+      position: fixed;
+      text-align: center;
+      width: 100%;
+    }
+    footer ul {
+      font-size: 1.4rem;
+    }
+    @media (max-height: 530px) {
+      footer {
+        position: relative;
+        bottom: 0;
+      }
+    }
+
+    /* - - - - - - - - - - - - - - - - - - - - *\
+    HELPERS
+    \* - - - - - - - - - - - - - - - - - - - - */
+    span.small {
+      display: block;
+      font-size: 2.4rem;
+      font-weight: 100;
+      line-height: 1.3em;
+      margin-bottom: 1.3rem;
+    }
+
+    .size-lg {
+      font-size: 2.5rem;
+      padding: 1.75rem;}
+
+    .size-xl {
+      font-size: 3rem;
+      padding: 1.25rem;}
+
+    .headroom-xs {margin-top: 1rem;}
+
+    .headroom-sm {margin-top: 2rem;}
+
+    .legroom-xs {margin-bottom: 1em;}
+
+    .legroom-md {margin-bottom: 3rem;}
+
+    .muted-text {color: rgba(0, 0, 0, 0.33);}
+    .muted-text a {color: rgba(253, 0, 129, 0.5);}
+    .muted-text a:hover {
+      color: rgba(253, 0, 129, 0.75);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(253, 0, 129, 0.33);
+    }
+  </style>
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-12 legroom-sm">
+          <h1><span class="small">The next generation of UX designers are waiting for you to</span> Become a UX design mentor</h1>
+          <!-- <p class="muted-text">
+            Apply for multiple online user experience mentoring opportunities
+          </p> -->
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-12 legroom-md">
+          <p>Apply to three leading online UX design mentoring opportunities with a single form
+          </p>
+          <ul class="list-unstyled list-inline">
+            <li><a href="http://trydesignlab.com/" target="_blank">Designlab</a></li>
+            <li><i class="fa fa-plus muted-text"></i></li>
+            <li><a href="https://www.thinkful.com/" target="_blank">Thinkful</a></li>
+            <li><i class="fa fa-plus muted-text"></i></li>
+            <li><a href="https://careerfoundry.com/" target="_blank">CareerFoundry</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+          <button class="btn btn-primary size-lg legroom-xs">
+            <i class="fa fa-pencil"></i> Apply now
+          </button>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-4 col-md-offset-4">
+          <!--embed typeform here -->
+        </div>
+        <div class="col-md-12 headroom-sm">
+          <footer>
+            <ul class="list-inline muted-text">
+              <li>&copy;2015 a tool by <a href="http://adamruf.com">Adam Ruf</a></li>
+              <li>|</li>
+              <li>Made with <i class="fa fa-code"></i> in SF</li>
+              <li>|</li>
+              <li><a href="#"><i class="fa fa-github-square"></i> Fork on GitHub</a></li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
+  </a>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/min/scripts-min.js"></script>
+</body>
+</html>
